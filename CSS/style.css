@@ -20,7 +20,10 @@ h2{
 p{
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
-    margin-bottom: 30px;
+}
+.paragraph-style{
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 .flaxible-container{
     display: flex;
@@ -28,14 +31,15 @@ p{
     margin-bottom: 10%;
 }
 .half-width{
-    width: 80%;
-    padding-left: 5%;
-    padding-right: 5%;
-
+    width: 50%;
+}
+.section-one-div{
+    padding-left: 7%;
 }
 .half-width img{
-    width: 80%;
-    padding-left: 35%;
+    width: 70%;
+    /* padding-left: 10%; */
+    margin-left: 15%;
 }
 .btn-style{
     background-image: linear-gradient( 45deg, orange, salmon);
@@ -51,22 +55,43 @@ p{
     margin-bottom: 5%;
 }
 .center-div-width{
-    width: 90%;
-    margin-left: 2%;
+    width: 33.33%;
+    margin-bottom: 10%;
 }
 .center-div-width img{
-    width: 40%;
+    width: 50%;
 } 
 .center-area-decoration{
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 .center-area-background-l{
     background-color: rgba(245, 222, 179, 0.712);
-    padding:1% 1%;
+    padding:3% 3%;
     border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
 }
 .center-area-background-2{
     background-color: rgba(220, 220, 220, 0.692);
-    padding:1% 1%;
+    padding:3% 3%;
     border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
+}
+.section-three-header{
+    font-size: 40px;
+}
+.section-banner-3{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom top 150px, right 900px;
+    background-size: 15%;
+}
+.section-banner-4{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 15%;
+}
+.section-four-Image{
+    border-radius: 20px;
 }
