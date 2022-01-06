@@ -1,10 +1,14 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    padding: 3%;
 }
 h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 50px;
     font-weight: lighter;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
 }
 .heading-style{
     color:orange;
@@ -40,4 +44,29 @@ p{
     padding: 2% 4%;
     text-decoration: none;
     border-radius: 10px;
+}
+.center-heading{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.center-div-width{
+    width: 90%;
+    margin-left: 2%;
+}
+.center-div-width img{
+    width: 40%;
+} 
+.center-area-decoration{
+    margin-left: 5%;
+}
+.center-area-background-l{
+    background-color: rgba(245, 222, 179, 0.712);
+    padding:1% 1%;
+    border-radius: 15px;
+}
+.center-area-background-2{
+    background-color: rgba(220, 220, 220, 0.692);
+    padding:1% 1%;
+    border-radius: 15px;
 }
