@@ -52,6 +52,11 @@ p{
     text-decoration: none;
     border-radius: 10px;
 }
+.btn-style:hover{
+    background-image: linear-gradient( 45deg, salmon,salmon);
+    color: white;
+    
+}
 .center-heading{
     text-align: center;
     font-size: 50px;
@@ -107,12 +112,11 @@ p{
     color: salmon;
     font-size: 25px;
     padding-top: 1%;
-    font-family: 'Abril Fatface', cursive;
+    font-family: cursive;
     font-weight: lighter;
 }
 .footer-style p{
     text-align: center;
     color: seashell;
     font-size: 15px;
-    /* margin-bottom: 100px; */
 }
