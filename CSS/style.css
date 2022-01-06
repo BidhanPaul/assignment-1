@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    padding: 3%;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-family: 'Abril Fatface', cursive;
@@ -27,8 +28,10 @@ p{
 }
 .flaxible-container{
     display: flex;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .half-width{
     width: 50%;
@@ -37,9 +40,9 @@ p{
     padding-left: 7%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
     /* padding-left: 10%; */
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .btn-style{
     background-image: linear-gradient( 45deg, orange, salmon);
@@ -94,4 +97,22 @@ p{
 }
 .section-four-Image{
     border-radius: 20px;
+}
+.footer-style{
+    background-color: rgb(16, 16, 49);
+    height: 120px;
+}
+.footer-style h4{
+    text-align: center;
+    color: salmon;
+    font-size: 25px;
+    padding-top: 1%;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+}
+.footer-style p{
+    text-align: center;
+    color: seashell;
+    font-size: 15px;
+    /* margin-bottom: 100px; */
 }
