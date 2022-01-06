@@ -1,0 +1,43 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.heading-style{
+    color:orange;
+}
+.heading-decoration{
+    border-left: 5px solid orange;
+    padding-left: 3%;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.flaxible-container{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.half-width{
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.half-width img{
+    width: 80%;
+    padding-left: 35%;
+}
+.btn-style{
+    background-image: linear-gradient( 45deg, orange, salmon);
+    color: white;
+    font-weight: 700;
+    padding: 2% 4%;
+    text-decoration: none;
+    border-radius: 10px;
+}
